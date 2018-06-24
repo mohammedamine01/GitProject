@@ -14,6 +14,8 @@ public class Example {
 		System.out.println("ABBOUDI Widad");
 		System.out.println("---------------");
 		printData();
+		System.out.println("---------------");
+		System.out.println(printGit());
 	}
 	public static void printData(){
 		int data[]={1,56,88,60,55,784,24};
@@ -21,5 +23,8 @@ public class Example {
 		for (int i : data) {
 			System.out.println(i);
 		}
+	}
+	public static String printGit(){
+		return "I'm GIT";
 	}
 }
