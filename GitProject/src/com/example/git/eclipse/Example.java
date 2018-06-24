@@ -16,7 +16,7 @@ public class Example {
 		printData();
 	}
 	public static void printData(){
-		int data[]={1,56,88};
+		int data[]={1,56,88,60,55,784};
 		System.out.println("Data:");
 		for (int i : data) {
 			System.out.println(i);
