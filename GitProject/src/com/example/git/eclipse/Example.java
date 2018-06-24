@@ -16,6 +16,8 @@ public class Example {
 		printData();
 		System.out.println("---------------");
 		System.out.println(printGit());
+		System.out.println("---------------");
+		System.out.println("---------------");
 	}
 	public static void printData(){
 		int data[]={1,56,88,60,55,784,24};
