@@ -12,5 +12,14 @@ public class Example {
 		System.out.println("Hi");
 		System.out.println("ENNAMI Mohammed Amine");
 		System.out.println("ABBOUDI Widad");
+		System.out.println("---------------");
+		printData();
+	}
+	public static void printData(){
+		int data[]={1,56,88};
+		System.out.println("Data:");
+		for (int i : data) {
+			System.out.println(i);
+		}
 	}
 }
